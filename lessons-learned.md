@@ -46,7 +46,7 @@ Don't let this warning stop you. Verify VT-x is enabled in BIOS, then proceed re
 ## 3. Browser SSL Certificate Warning on Proxmox Web UI
 
 **What happened:**
-When navigating to `https://192.168.xxx.xxx:xxxx`, the browser threw a security warning about an untrusted certificate.
+When navigating to `https://<PROXMOX-IP>`, the browser threw a security warning about an untrusted certificate.
 
 **Why it happens:**
 Proxmox ships with a self-signed certificate. Browsers don't trust self-signed certs by default.
