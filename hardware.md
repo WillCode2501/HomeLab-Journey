@@ -41,7 +41,7 @@ Running multiple VMs simultaneously requires adequate RAM. 8GB is tight; 16GB gi
 
 Used exclusively for managing the server. Never runs VMs.
 
-- Connects to Proxmox web UI via browser (`https://192.168.50.133:8006`)
+- Connects to Proxmox web UI via browser (`https://<PROXMOX-IP>:8006`)
 - Connects to VMs via SSH
 - Used to flash the Proxmox USB installer with Rufus
 
