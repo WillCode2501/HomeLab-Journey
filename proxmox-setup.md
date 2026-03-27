@@ -64,8 +64,8 @@ The HP 410-030 has VT-x (hardware virtualization) disabled by default. You must 
 8. **Network configuration:**
    - Management interface: your Ethernet adapter (e.g., `eno1`)
    - Hostname: something like `proxmox.local`
-   - IP address: assign a static IP (e.g., `192.168.xxx.xxx`)
-   - Gateway: your router IP (e.g., `192.168.xxx.xxx`)
+   - IP address: assign a static IP (e.g., `<PROXMOX-IP>`)
+   - Gateway: your router IP (e.g., `<PROXMOX-IP>`)
    - DNS: `8.8.8.8` or your router IP
 9. Review the summary and click **Install**
 10. When complete, click **Reboot**
@@ -81,7 +81,7 @@ Once Proxmox boots, you no longer need the monitor. The HP Desktop can be tucked
 On your admin laptop, open a browser and go to:
 
 ```
-https://192.168.xxx.xxx:xxxx
+https://<PROXMOX-IP>
 ```
 
 > Your browser will warn about an invalid certificate. This is expected — click **Advanced → Proceed** to continue.
@@ -114,9 +114,9 @@ This removes the popup. Proxmox remains fully functional without a subscription 
 
 | Item | Value |
 |---|---|
-| Proxmox Web UI | `https://192.168.xxx.xxx:xxxx` |
+| Proxmox Web UI | `https://<PROXMOX-IP>` |
 | Login | `root` / your password |
-| SSH | `ssh root@192.168.xxx.xxx` |
+| SSH | `ssh root@<PROXMOX-IP>` |
 
 ---
 
