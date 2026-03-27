@@ -124,7 +124,7 @@ sudo apt update && sudo apt upgrade -y
 Set the timezone:
 
 ```bash
-sudo timedatectl set-timezone America/New_York
+sudo timedatectl set-timezone your/Timezone
 ```
 
 Check SSH is running:
